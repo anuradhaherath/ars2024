@@ -248,6 +248,21 @@ h6 {
   max-width: 80px;
 }
 
+#tmt button {
+  background-color: var(--primary-color); 
+  color: white;          
+  border: none;          
+  padding: 10px 20px;    
+  border-radius: 10px;   
+  font-size: 16px;       
+  cursor: pointer;       
+}
+
+#tmt button:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+
 /*--------------------------------------------------------------
 # Navigation Menu 
 --------------------------------------------------------------*/
